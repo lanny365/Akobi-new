@@ -1,0 +1,39 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.12.1
+2 info using node@v24.15.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Akobispecialisthospital-main (1)\.npmrc
+5 silly config load:file:C:\Users\ayoad\.npmrc
+6 silly config load:file:C:\Users\ayoad\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:C:\Akobispecialisthospital-main (1)\.npm-cache\_logs\2026-04-27T12_26_12_165Z-
+10 verbose logfile C:\Akobispecialisthospital-main (1)\.npm-cache\_logs\2026-04-27T12_26_12_165Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 silly idealTree buildDeps
+14 silly reify moves {}
+15 verbose stack Error: Could not read package.json: Error: ENOENT: no such file or directory, open 'C:\Akobispecialisthospital-main (1)\package.json'
+15 verbose stack     at async open (node:internal/fs/promises:640:25)
+15 verbose stack     at async readFile (node:internal/fs/promises:1287:14)
+15 verbose stack     at async read (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\package-json\lib\read-package.js:9:18)
+15 verbose stack     at async PackageJson.load (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\package-json\lib\index.js:131:31)
+15 verbose stack     at async PackageJson.normalize (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\package-json\lib\index.js:117:5)
+15 verbose stack     at async runScript (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\run-script\lib\run-script.js:11:28)
+15 verbose stack     at async Install.exec (C:\Program Files\nodejs\node_modules\npm\lib\commands\install.js:159:9)
+15 verbose stack     at async Npm.exec (C:\Program Files\nodejs\node_modules\npm\lib\npm.js:193:9)
+15 verbose stack     at async module.exports (C:\Program Files\nodejs\node_modules\npm\lib\cli\entry.js:67:5)
+16 error code ENOENT
+17 error syscall open
+18 error path C:\Akobispecialisthospital-main (1)\package.json
+19 error errno -4058
+20 error enoent Could not read package.json: Error: ENOENT: no such file or directory, open 'C:\Akobispecialisthospital-main (1)\package.json'
+21 error enoent This is related to npm not being able to find a file.
+21 error enoent
+22 verbose cwd C:\Akobispecialisthospital-main (1)
+23 verbose os Windows_NT 10.0.19045
+24 verbose node v24.15.0
+25 verbose npm  v11.12.1
+26 verbose exit -4058
+27 verbose code -4058
+28 error A complete log of this run can be found in: C:\Akobispecialisthospital-main (1)\.npm-cache\_logs\2026-04-27T12_26_12_165Z-debug-0.log
